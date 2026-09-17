@@ -10,3 +10,5 @@ description: "Backend rules for the Express + MongoDB app."
 - Use env variables for secrets, DB config, and external service keys.
 - Return consistent API responses and never expose stack traces or sensitive data.
 - Test the changed endpoint behavior and the failure cases that matter.
+- Protect authenticated endpoints with the existing JWT checks and keep security defaults enabled.
+- Do not log tokens, passwords, or other sensitive data.
